@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+
+body {font-family: Verdana, sans-serif;}
+
+img {
+    border-radius: 40px;
+    border: 8px solid #fff;
+}
+
+h1 {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    display:grid;
+    border-radius: 16px;
+    color : #ff9549;
+    text-align: center;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #ff8c7d;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ffb1a7;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: #ff9549;
+  color: white;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  color: white;
+  background: #ff9549;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ffd9d4;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+
+</style>
+
+<head>
+    
+    <title>AniMania</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+    
+
+<body>
+
+  <body background="C:\Users\C24327596\Downloads\PolkaDots.jpg">
+
+  <a href="index.html"><img src="C:\Users\C24327596\Downloads\candycolouredclown.png" alt="AniMania Logo"></a>
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a class="active" href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <div class="search-container">
+          <form action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+        </div>
+      </div>
+
+</body>

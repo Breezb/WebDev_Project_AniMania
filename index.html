@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+
+body {font-family: Verdana, sans-serif;}
+  
+img {
+    border-radius: 40px;
+    border: 8px solid #fff;
+}
+
+
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #ff8c7d;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ffb1a7;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: #ff9549;
+  color: white;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  color: white;
+  background: #ff9549;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ffd9d4;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+
+
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.container {
+  position: relative;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: left;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: #ff9549;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: #ff8c7d;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+
+.container2 {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container2 img {vertical-align: middle;}
+
+.container2 .content2 {
+  position: absolute;
+  bottom: 0;
+  background: #ff9549;
+  background: #29222293;
+  color: #ffffff;
+  width: 100%;
+  padding: 20px;
+  border-radius: 40px;
+}
+
+#mySidenav a {
+  position: relative;
+  left: -200px;
+  transition: 0.3s;
+  padding: 10px;
+  width: 600px;
+  text-decoration: none;
+  font-size: 65px;
+  color: #ff9549;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#Newreleases {
+  top: 20px;
+  background-color: #ffffff;
+}
+
+
+
+h1 {
+    background-color: #ffffff;
+    text-decoration: none;
+    display:grid;
+    border-radius: 16px;
+    color : #ff9549;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    display:grid;
+}
+
+footer {
+    width: 100%;
+   background-color: #ffffff;
+    color: #ff9549;
+   text-align: left;
+   padding: 35px;
+}
+
+</style>
+
+
+<head>
+
+    <title>AniMania</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+
+<body>
+
+<body background="C:\Users\C24327596\Downloads\PolkaDots.jpg">
+
+    <a href="index.html"><img src="C:\Users\C24327596\Downloads\candycolouredclown.png" alt="AniMania Logo"></a>
+    
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <div class="search-container">
+          <form action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+        </div>
+      </div>
+
+      <br>
+
+
+      <div id="mySidenav" class="sidenav">
+        <a href="#" id="Newreleases">New Releases</a>
+      </div>
+    
+    <br><br>
+
+    <div style="text-align: center;">
+  <div class="container">
+    <div class="mySlides">
+      <img src="C:\Users\C24327596\Downloads\Bunny1.jpg" style="width:50%" class="center">
+  </div>
+
+  <div class="mySlides">
+    <img src="C:\Users\C24327596\Downloads\naruto1.jpg" style="width:50%" class="center">
+  </div>
+
+  <div class="mySlides">
+    <img src="C:\Users\C24327596\Downloads\onepiece2.jpg" style="width:50%"class="center">
+  </div>
+    
+  <div class="mySlides">
+    <img src="C:\Users\C24327596\Downloads\mha1.jpg" style="width:50%" class="center">
+  </div>
+
+  <div class="mySlides">
+    <img src="C:\Users\C24327596\Downloads\newanime.jpg" style="width:50%" class="center" >
+  </div>
+    
+  <div class="mySlides">
+    <img src="C:\Users\C24327596\Downloads\mha2.jpg" style="width:50%" class="center">
+  </div>
+
+  <br>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <br><br>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <br>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="C:\Users\C24327596\Downloads\Bunny1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Latest Bunny Girl Senapi Episode">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="C:\Users\C24327596\Downloads\naruto1.jpg" style="width:100%" onclick="currentSlide(2)" alt="Final Naruto Shippuden Episode">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="C:\Users\C24327596\Downloads\onepiece2.jpg" style="width:100%" onclick="currentSlide(3)" alt="Latest One Piece Episode">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="C:\Users\C24327596\Downloads\mha1.jpg" style="width:100%" onclick="currentSlide(4)" alt="New My Hero Academia Episode">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="C:\Users\C24327596\Downloads\newanime.jpg" style="width:100%" onclick="currentSlide(5)" alt="New Trending Samurai Anime">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="C:\Users\C24327596\Downloads\mha2.jpg" style="width:100%" onclick="currentSlide(6)" alt="Special Halloween My Hero Academia Episode">
+    </div>
+  </div>
+</div>
+
+
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("demo");
+    let captionText = document.getElementById("caption");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    captionText.innerHTML = dots[slideIndex-1].alt;
+    }
+  </script>
+
+
+
+  <h1 style="text-align: center;">Popular Series</h1></div>
+    <b><h4 style="color: #ff8c7d;">AniMania aims to keep you on schedule with the latest and trending anime!</h4>
+    </b>
+
+  <div class="container2">
+    <img src="C:\Users\C24327596\Downloads\Frieren.jpg" alt="Frieren Anime" style="width:100%;">
+    <div class="content2">
+      <u><h3 style="text-align: left;">Frieren</h3></u>
+      <p style="text-align: left;">The narrative of FRIEREN: BEYOND JOURNEY'S END centres on Frieren, an elf magician who, along with four other heroes, slew the demon king.  After saying goodbye to one another, the allies determine that Frieren would go out on her own to find new magic powers.</p>
+    </div>
+  </div>
+
+  <h1 style="text-align: center;">Curated Categories</h1></div>
+
+  <div class="container2">
+    <img src="C:\Users\C24327596\Downloads\comic.jpg" alt="Manga Section" style="width:100%;">
+    <div class="content2">
+      <u><h3 style="text-align: left;">Miraculous Manga</h3></u>
+      <p style="text-align: left;">Animania provides a diverse variety of manga for each of our users, we send out several discounts to make sure our manga is affordable!</p>
+    </div>
+  </div><br><br>
+
+
+  <div class="container2">
+    <img src="C:\Users\C24327596\Downloads\clothing.jpg" alt="Clothing Section" style="width:100%;">
+    <div class="content2">
+      <u><h3 style="text-align: left;">Chic Clothing</h3></u>
+      <p style="text-align: left;">With amazing insights on trending anime and endlessly stocked Manga, Animania also has fashionable and stylish clothing in store for users who wish to wear their favourite anime!</p>
+    </div>
+  </div><br><br><br><br>
+
+  <footer>
+    <p>Connect With Us<br>
+    <a style="color:#ff8c7d" href="Animania@example.com">Animania@email.com<br>@Animania<br>www.Anmania.com</a></p>
+  </footer>
+
+</body>
+</html>
