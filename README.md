@@ -1,9 +1,9 @@
 ## About:
 - Team Animania's github repository
-## Client: 
+### Client: 
 - Sofia Martinez
 
-## Developers: 
+### Developers: 
 - does
 - this
 - work
