@@ -5,4 +5,4 @@
 ### Developers: 
 - Zartashia Saleem (C24376326)
 - Wonu Olotu (C24327596)
-- Charles Alexander (c24362113)
+- Charles Alexander (C24362113)
