@@ -1,10 +1,12 @@
 # AniMania
 
-Team AniMania's GitHub Repository.
+## Team AniMania's GitHub Repository.
 
-Client: Sofia Martinez
+### Client: 
 
-Developers: 
+Sofia Martinez
+
+### Developers: 
 - does
 - this
 - work
