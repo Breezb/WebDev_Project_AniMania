@@ -3,6 +3,6 @@
 - Sofia Martinez
 
 ### Developers: 
-- does
-- this
-- work
+- Zartashia Saleem 
+- Wonu Olotu
+- Charles Alexander
