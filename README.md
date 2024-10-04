@@ -1,5 +1,4 @@
-## About:
-- Team Animania's github repository
+## Team Animania's github repository
 ### Client: 
 - Sofia Martinez
 
