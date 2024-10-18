@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>AniMania</title>
+    <link rel="stylesheet" type="text/css" href="C:\Users\C24327596\OneDrive - Technological University Dublin\Web Design\AniMania\WebDev_Project_AniMania-main\CSS\IndexStyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+
+<body background="../Images/PolkaDots.jpg">
+
+    <a href="index.html"><img src="../Images/candycolouredclown.png" alt="AniMania Logo"></a>
+    
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <div class="search-container">
+          <form action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+        </div>
+      </div>
+
+      <br>
+
+
+      <div id="mySidenav" class="sidenav">
+        <a href="#" id="Newreleases">New Releases</a>
+      </div>
+    
+    <br><br>
+
+    <div style="text-align: center;">
+  <div class="container">
+    <div class="mySlides">
+      <img src="../Images/Bunny1.jpg" style="width:50%" class="center">
+  </div>
+
+  <div class="mySlides">
+    <img src="../Images/naruto1.jpg" style="width:50%" class="center">
+  </div>
+
+  <div class="mySlides">
+    <img src="../Images/onepiece2.jpg" style="width:50%"class="center">
+  </div>
+    
+  <div class="mySlides">
+    <img src="../Images/mha1.jpg" style="width:50%" class="center">
+  </div>
+
+  <div class="mySlides">
+    <img src="../Images/newanime.jpg" style="width:50%" class="center" >
+  </div>
+    
+  <div class="mySlides">
+    <img src="../Images/mha2.jpg" style="width:50%" class="center">
+  </div>
+
+  <br>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <br><br>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <br>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="../Images/Bunny1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Latest Bunny Girl Senapi Episode">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="../Images/naruto1.jpg" style="width:100%" onclick="currentSlide(2)" alt="Final Naruto Shippuden Episode">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="../Images/onepiece2.jpg" style="width:100%" onclick="currentSlide(3)" alt="Latest One Piece Episode">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="../Images/mha1.jpg" style="width:100%" onclick="currentSlide(4)" alt="New My Hero Academia Episode">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="../Images/newanime.jpg" style="width:100%" onclick="currentSlide(5)" alt="New Trending Samurai Anime">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="../Images/mha2.jpg" style="width:100%" onclick="currentSlide(6)" alt="Special Halloween My Hero Academia Episode">
+    </div>
+  </div>
+</div>
+
+
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("demo");
+    let captionText = document.getElementById("caption");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    captionText.innerHTML = dots[slideIndex-1].alt;
+    }
+  </script>
+
+
+
+  <h1 style="text-align: center;">Popular Series</h1></div>
+    <b><h4 style="color: #ff8c7d;">AniMania aims to keep you on schedule with the latest and trending anime!</h4>
+    </b>
+
+  <div class="container2">
+    <img src="../Images/Frieren.jpg" alt="Frieren Anime" style="width:100%;">
+    <div class="content2">
+      <u><h3 style="text-align: left;">Frieren</h3></u>
+      <p style="text-align: left;">The narrative of FRIEREN: BEYOND JOURNEY'S END centres on Frieren, an elf magician who, along with four other heroes, slew the demon king.  After saying goodbye to one another, the allies determine that Frieren would go out on her own to find new magic powers.</p>
+    </div>
+  </div>
+
+  <h1 style="text-align: center;">Curated Categories</h1></div>
+
+  <div class="container2">
+    <img src="../Images/comic.jpg" alt="Manga Section" style="width:100%;">
+    <div class="content2">
+      <u><h3 style="text-align: left;">Miraculous Manga</h3></u>
+      <p style="text-align: left;">Animania provides a diverse variety of manga for each of our users, we send out several discounts to make sure our manga is affordable!</p>
+    </div>
+  </div><br><br>
+
+
+  <div class="container2">
+    <img src="../Images/clothing.jpg" alt="Clothing Section" style="width:100%;">
+    <div class="content2">
+      <u><h3 style="text-align: left;">Chic Clothing</h3></u>
+      <p style="text-align: left;">With amazing insights on trending anime and endlessly stocked Manga, Animania also has fashionable and stylish clothing in store for users who wish to wear their favourite anime!</p>
+    </div>
+  </div><br><br>
+  
+  <div class="container2">
+    <img src="../Images/ClawMachine.jpg" alt="Claw Machine" style="width:100%;">
+    <div class="content2">
+      <u><h3 style="text-align: left;">Claw Machine</h3></u>
+      <p style="text-align: left;">Animania also offers an exciting and unique way to win discounts off items through the fun form of a Claw Machine where you can win up to 50% off and free shipping!</p>
+    </div>
+  </div><br><br><br><br>
+
+  <footer>
+    <p>Connect With Us<br>
+    <a style="color:#ff8c7d" href="Animania@example.com">Animania@email.com<br>@Animania<br>www.Anmania.com</a></p>
+  </footer>
+
+</body>
+</html>
