@@ -2,10 +2,23 @@
 <html>
 
 <head>
+  <!--Meta tags to display characters and page correctly on mobile-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Summary of page content-->
+  <meta name="description" content="AniMania - Your hub for the latest anime releases, manga, clothing, and more!">
+  <!--Meta tags for social media preview-->
+  <meta property="og:title" content="AniMania">
+  <meta property="og:description" content="Stay updated with the latest and trending anime. Explore anime series, manga, and fashion.">
+  <meta property="og:image" content="images/candycolouredclown.png">
+  <meta property="og:url" content="https://www.Animania.com">
 
-    <title>AniMania</title>
-    <link rel="stylesheet" type="text/css" href="css/IndexStyle.css">
-    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+
+  <title>AniMania</title>
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+  <script src="scripts/slideshow.js" defer></script> <!-- Script is downloaded in parallel but executed after HTML is parsed -->
+
 </head>
 
 
@@ -37,27 +50,27 @@
     <div style="text-align: center;">
   <div class="container">
     <div class="mySlides">
-      <img src="images/Bunny1.jpg" style="width:50%" class="center">
+      <img src="images/Bunny1.jpg" alt="Image of a Girl with Bunny Ears" style="width:50%" class="center">
   </div>
 
   <div class="mySlides">
-    <img src="images/naruto1.jpg" style="width:50%" class="center">
+    <img src="images/naruto1.jpg" alt="Image of Kakashi from Naruto" style="width:50%" class="center">
   </div>
 
   <div class="mySlides">
-    <img src="images/onepiece2.jpg" style="width:50%"class="center">
+    <img src="images/onepiece2.jpg" alt="Image of Luffy Fighting Luffy" style="width:50%"class="center">
   </div>
     
   <div class="mySlides">
-    <img src="images/mha1.jpg" style="width:50%" class="center">
+    <img src="images/mha1.jpg" alt="Image of Shoto from MHA" style="width:50%" class="center">
   </div>
 
   <div class="mySlides">
-    <img src="images/newanime.jpg" style="width:50%" class="center" >
+    <img src="images/newanime.jpg" alt="Image of a New anime" style="width:50%" class="center" >
   </div>
     
   <div class="mySlides">
-    <img src="images/mha2.jpg" style="width:50%" class="center">
+    <img src="images/mha2.jpg" alt="Halloween themed image of MHA" style="width:50%" class="center">
   </div>
 
   <br>
@@ -73,6 +86,7 @@
 
   <br>
 
+  <!--Anime Slideshow-->
   <div class="row">
     <div class="column">
       <img class="demo cursor" src="images/Bunny1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Latest Bunny Girl Senapi Episode">
@@ -95,40 +109,7 @@
   </div>
 </div>
 
-
-
-<script>
-let slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-    let i;
-    let slides = document.getElementsByClassName("mySlides");
-    let dots = document.getElementsByClassName("demo");
-    let captionText = document.getElementById("caption");
-    if (n > slides.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = slides.length}
-    for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-    }
-    for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className += " active";
-    captionText.innerHTML = dots[slideIndex-1].alt;
-    }
-  </script>
-
-
+<!--Sections-->
 
   <h1 style="text-align: center;">Popular Series</h1></div>
     <b><h4 style="color: #ff8c7d;">AniMania aims to keep you on schedule with the latest and trending anime!</h4>
@@ -169,9 +150,10 @@ function showSlides(n) {
     </div>
   </div><br><br><br><br>
 
+  <!--Footer Section-->
   <footer>
     <p>Connect With Us<br>
-    <a style="color:#ff8c7d" href="Animania@example.com">Animania@email.com<br>@Animania<br>www.Anmania.com</a></p>
+    <a style="color:#ff8c7d" href="mailto:Animania@email.com">Animania@email.com<br>@Animania<br>www.Anmania.com</a></p>
   </footer>
 
 </body>
