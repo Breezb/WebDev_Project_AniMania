@@ -1,13 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    
-    <title>AniMania</title>
-    <link rel="stylesheet" type="text/css" href="../css/contact.css">
-    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
-
-
+  <!--Meta tags to display characters and page correctly on mobile-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--Summary of page content-->
+  <meta name="description" content="Welcome to Animania, your go-to source for everything anime!">
+  <!--Meta tags for social media preview-->
+  <meta property="og:title" content="AniMania - Contact">
+  <meta property="og:description" content="Contact us at...">
+  <meta property="og:image" content="images/candycolouredclown.png">
+  <meta property="og:url" content="https://www.Animania.com/contact">
+ 
+ 
+  <title>AniMania</title>
+  <link rel="stylesheet" type="text/css" href="../css/contact.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!--Font Awesome Library to include icons-->
 </head>
     
 
@@ -16,23 +25,24 @@
   <body background="../images/PolkaDots.jpg">
 
   <a href="../index.html"><img src="../images/candycolouredclown.png" alt="AniMania Logo"></a>
-    <div class="topnav">
+    
+  <div class="topnav">
         <a href="../index.html">Home</a>
         <a href="about.html">About</a>
         <a class="active" href="contact.html">Contact</a>
 
     <div class="search-container">
-      <form action="/action_page.php">
+      <form>
         <input type="text" placeholder="Search.." name="search">
-          <button type="submit"><i class="fa fa-search"></i></button>
-        </form>
-      </div>
+        <button aria-label="Search" type="submit"><i class="fa fa-search"></i></button>
+      </form>
     </div>
+  </div>
 
       <h1 style="text-align: left;">Contact Form</h1>
 
       <div class="container">
-        <form action="/action_page.php">
+        <form>
           <label for="fname">First Name</label>
           <input type="text" id="fname" name="firstname" placeholder="Your name..">
       
@@ -53,9 +63,10 @@
         </form>
       </div><br><br><br><br>
 
+  <!--Footer Section-->
   <footer>
     <p>Connect With Us<br>
-    <a style="color:#ff8c7d" href="Animania@example.com">Animania@email.com<br>@Animania<br>www.Anmania.com</a></p>
+    <a style="color:#ff8c7d" href="mailto:Animania@email.com">Animania@email.com<br>@Animania<br>www.Anmania.com</a></p>
   </footer>
 
       
