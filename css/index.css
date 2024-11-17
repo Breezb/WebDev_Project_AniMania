@@ -5,6 +5,12 @@ img {
     border: 8px solid #fff;
 }
 
+.logo{
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
 
 * {box-sizing: border-box;}
 
@@ -55,8 +61,8 @@ body {
   margin-right: 16px;
   color: white;
   background: #ff9549;
-  height: 32px;
-  width: 32px;
+  height: 10%;
+  width: 10%;
   font-size: 17px;
   border: none;
   cursor: pointer;
@@ -66,7 +72,7 @@ body {
   background: #ffd9d4;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 100%) {
   .topnav .search-container {
     float: none;
   }
@@ -182,7 +188,7 @@ img {
 
 .container2 {
   position: relative;
-  max-width: 800px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -201,10 +207,10 @@ img {
 
 #mySidenav a {
   position: relative;
-  left: -200px;
-  transition: 0.3s;
+  left: -150%;
+  transition: 1s;
   padding: 10px;
-  width: 600px;
+  width: 100%;
   text-decoration: none;
   font-size: 65px;
   color: #ff9549;
@@ -217,7 +223,11 @@ img {
 
 #Newreleases {
   top: 20px;
+  margin: 0px;
+  padding: 0px;
+  text-align: left;
   background-color: #ffffff;
+  font-size: 20%
 }
 
 
@@ -243,3 +253,4 @@ footer {
    text-align: left;
    padding: 35px;
 }
+
