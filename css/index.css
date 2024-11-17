@@ -191,19 +191,22 @@ img {
   position: relative;
   max-width: 100%;
   margin: 0 auto;
+  display: inline-block;
 }
 
-.container2 img {vertical-align: middle;}
+.container2 img {
+  vertical-align: middle;
+  display: block;}
 
 .container2 .content2 {
   position: absolute;
   bottom: 0;
-  background: #ff9549;
   background: #29222293;
   color: #ffffff;
   width: 100%;
   padding: 20px;
   border-radius: 40px;
+  box-sizing: border-box;
 }
 
 #mySidenav a {
