@@ -5,6 +5,13 @@ img {
     border: 8px solid #fff;
 }
 
+.logo{
+  position: relative;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
 h1 {
     background-color: #ffffff;
     padding: 10px 20px;
