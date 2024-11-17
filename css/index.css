@@ -223,8 +223,7 @@ img {
 
 #Newreleases {
   top: 20px;
-  margin: 0px;
-  padding: 0px;
+  left: -150%;
   text-align: left;
   background-color: #ffffff;
   font-size: 20%
