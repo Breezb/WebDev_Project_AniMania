@@ -2,189 +2,129 @@
 <html lang="en">
 
 <head>
-  <!--Meta tags to display characters and page correctly on mobile-->
+  <!-- Meta tags to display characters and page correctly on mobile -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!--Summary of page content-->
+  <!-- Summary of page content -->
   <meta name="description" content="Welcome to Animania, your go-to source for everything anime!">
-  <!--Meta tags for social media preview-->
+  <!-- Meta tags for social media preview -->
   <meta property="og:title" content="AniMania - Store">
   <meta property="og:description" content="Shop with us...">
   <meta property="og:image" content="images/candycolouredclown.png">
   <meta property="og:url" content="https://www.Animania.com/store">
  
- 
   <title>AniMania</title>
-  <link rel="icon" href="../images/Miku.ico" type="images/x-icon"> <!--Web page icon-->
+  <link rel="icon" href="../images/Miku.ico" type="image/x-icon"> <!-- Web page icon -->
   <link rel="stylesheet" type="text/css" href="../css/store.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!--Font Awesome Library-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Font Awesome Library -->
+  <script src="../scripts/store.js"></script>
 </head>
 
-<body>
+<body background="../images/PolkaDots.jpg">
 
-  <body background="../images/PolkaDots.jpg">
-
+  <!-- Logo -->
   <a href="../index.html"><img src="../images/candycolouredclown.png" alt="AniMania Logo"></a>
 
-    <div class="topnav">
-        <a href="../index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-        <a class="active" href="store.html">Store</a>
-      
-        <div class="search-container">
-          <form>
-            <input type="text" placeholder="Search.." name="search">
-            <button aria-label="Search" type="submit"><i class="fa fa-search"></i></button>
-          </form>
+  <!-- Navigation bar -->
+  <div class="topnav">
+    <a href="../index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a class="active" href="store.html">Store</a>
+    <div class="search-container">
+      <form>
+        <input type="text" placeholder="Search.." name="search">
+        <button aria-label="Search" type="submit"><i class="fa fa-search"></i></button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Anime Merchandise Section -->
+  <section>
+    <h2 id="AnHeader">ANIME MERCHANDISE</h2>
+
+    <div class="shop-items">
+      <div class="shop-item">
+        <span class="shop-item-title">SHIRT-1</span>
+        <img class="shop-item-image" src="../images/animeshirt1.jpg" alt="Anime Shirt-1 Image" width="400" height="400">
+        <div class="shop-item-details">
+          <span class="shop-item-price">€19.99</span>
+          <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
         </div>
       </div>
 
-    <section>
-        <h2>ANIME MERCHANDISE</h2>
-<<<<<<< HEAD
-        <div class="shop-items"></div>
-          <div class="shop-item">
-            <span class="shop-item-title">SHIRT-1</span>
-            <img class="shop-item-image" src="/images/animeshirt1.jpg" width="400" height="400">
-            <div class="shop-item-details">
-              <span class="shop-item-price">€19.99</span>
-              <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
-=======
-        <div>
-          <div>
-            <strong>SHIRT-1</strong>
-          </div>
-          <img src="../images/animeshirt1.jpg" alt="animeshirt1" width="400" height="400">
-          <div>
-              <span>€19.99</span>
-              <button role="button">ADD TO CART</button>
->>>>>>> eefee9bbf12a2c2e3ffc211f97ee70cb87dc636d
-          </div>        
-        </div>
-
-            <div class="shop-item">
-              <span class="shop-item-title">SHIRT-2</span>
-              <img class="shop-item-image" src="/images/animeshirt2.jpg" width="400" height="400">
-              <div class="shop-item-details">
-                <span class="shop-item-price">€19.99</span>
-                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
-            </div>        
-          </div>
-            <div class="shop-item">
-              <span class="shop-item-title">SHIRT-3</span>
-              <img class="shop-item-image" src="/images/animeshirt3.jpg" width="400" height="400">
-              <div class="shop-item-details">
-                <span class="shop-item-price">€19.99</span>
-                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
-            </div>        
-          </div>
-<<<<<<< HEAD
-=======
-          <img src="../images/animeshirt2.jpg" alt="animeshirt2" width="400" height="400">
-          <div>
-              <span>€19.99</span>
-              <button role="button">ADD TO CART</button>
-          </div>        
-        </div>
->>>>>>> eefee9bbf12a2c2e3ffc211f97ee70cb87dc636d
-
-            <div class="shop-item">
-              <span class="shop-item-title">SHIRT-4</span>
-              <img class="shop-item-image" src="/images/animeshirt4.jpg" width="400" height="400">
-              <div class="shop-item-details">
-                <span class="shop-item-price">€19.99</span>
-                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
-            </div>        
-          </div>
-<<<<<<< HEAD
-=======
-          <img src="../images/animeshirt3.jpg" alt="animeshirt3" width="400" height="400">
-          <div>
-              <span>€19.99</span>
-              <button role="button">ADD TO CART</button>
-          </div>        
-        </div>
-
-        <div>
-          <div>
-            <strong>SHIRT-4</strong>
-          </div>
-          <img src="../images/animeshirt4.jpg" alt="animeshirt4" width="400" height="400">
-          <div>
-              <span>€19.99</span>
-              <button role="button">ADD TO CART</button>
-          </div>        
->>>>>>> eefee9bbf12a2c2e3ffc211f97ee70cb87dc636d
-        </div>
-        
-    </section>
-    <section>
-      <h2>ANIME CLAW MACHINE</h2>
-      <h3>TRY YOUR LUCK!!</h3>
-      <h4>(Grab your Favorite Plushie 🥳)</h4>
-      <div class="machine">
-        <div class="claw-arm">
-          <div class="claw" id="claw"></div>
-        </div>
-        <div class="prizes">
-          <div class="prize" id="prize1">🍥</div>
-          <div class="prize" id="prize2">🍙</div>
-          <div class="prize" id="prize3">🍡</div>
+      <div class="shop-item">
+        <span class="shop-item-title">SHIRT-2</span>
+        <img class="shop-item-image" src="../images/animeshirt2.jpg" alt="Anime Shirt-2 Image" width="400" height="400">
+        <div class="shop-item-details">
+          <span class="shop-item-price">€19.99</span>
+          <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
         </div>
       </div>
-      <button id="startButton">Start</button>
-      <p id="result"></p>
-    
 
-    </section>
-    <section class="container content-section">
-      <h2 class="section-header">CART</h2>
-      <div class="cart-row">
-          <span class="cart-item cart-header cart-column">ITEM</span>
-          <span class="cart-price cart-header cart-column">PRICE</span>
-          <span class="cart-quantity cart-header cart-column">QUANTITY</span>
-      </div>
-<<<<<<< HEAD
-      <div class="cart-items">
-      </div>
-        <div class="cart-total">
-            <strong class="cart-total-title">TOTAL</strong>
-            <span class="cart-total-price">€0</span>
-=======
-      <div>
-        <img src="../images/animeshirt1.jpg" alt="animeshirt1" width="100" height="100">
-        <span>T-Shirt</span>
-        &lt;&gt;
-        <span>€19.99</span>
-        &lt;&gt;
-        <input type="number" value="1">
-        <button role="button">REMOVE</button>
-      </div>
-
-      <div>
-        <img src="../images/animeshirt2.jpg" alt="animeshirt2" width="100" height="100">
-        <span>T-Shirt</span>
-        &lt;&gt;
-        <span>€19.99</span>
-        &lt;&gt;
-        <input type="number" value="2">
-        <button role="button">REMOVE</button>
-        <hr>
-        <div>
-            <strong>TOTAL</strong>
-            <span>€59.97</span>
->>>>>>> eefee9bbf12a2c2e3ffc211f97ee70cb87dc636d
+      <div class="shop-item">
+        <span class="shop-item-title">SHIRT-3</span>
+        <img class="shop-item-image" src="../images/animeshirt3.jpg" alt="Anime Shirt-3 Image" width="400" height="400">
+        <div class="shop-item-details">
+          <span class="shop-item-price">€19.99</span>
+          <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
         </div>
-        <button class="btn btn-primary btn-purchase" type="button">BUY NOW</button>
+      </div>
 
-    </section>
+      <div class="shop-item">
+        <span class="shop-item-title">SHIRT-4</span>
+        <img class="shop-item-image" src="../images/animeshirt4.jpg" alt="Anime Shirt-4 Image" width="400" height="400">
+        <div class="shop-item-details">
+          <span class="shop-item-price">€19.99</span>
+          <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- Anime Claw Machine Section -->
+  <section>
+    <h2>ANIME CLAW MACHINE</h2>
+    <h3>TRY YOUR LUCK!!</h3>
+    <h4>(Grab your Favorite Plushie 🥳)</h4>
+    <div class="machine">
+      <div class="claw-arm">
+        <div class="claw" id="claw"></div>
+      </div>
+      <div class="prizes">
+        <div class="prize" id="prize1">🍥</div>
+        <div class="prize" id="prize2">🍙</div>
+        <div class="prize" id="prize3">🍡</div>
+      </div>
+    </div>
+    <button id="startButton">Start</button>
+    <p id="result"></p>
+  </section>
 
+  <!-- Cart Section -->
+  <section class="container content-section">
+    <h2 class="section-header">CART</h2>
+    <div class="cart-row">
+      <span class="cart-item cart-header cart-column">ITEM</span>
+      <span class="cart-price cart-header cart-column">PRICE</span>
+      <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+    </div>
+    <div class="cart-items">
+    </div>
+    <div class="cart-total">
+      <strong class="cart-total-title">TOTAL</strong>
+      <span class="cart-total-price">€0</span>
+    </div>
+    <button class="btn btn-primary btn-purchase" type="button">BUY NOW</button>
+  </section>
+
+  <!-- Footer -->
   <footer>
     <p>Connect With Us<br>
-    <a style="color:#ff8c7d" href="Animania@example.com">Animania@email.com<br>@Animania<br>www.Animania.com</a></p>
+      <a style="color:#ff8c7d" href="mailto:Animania@example.com">Animania@email.com<br>@Animania<br>www.Animania.com</a>
+    </p>
   </footer>
-<script src="../scripts/store.js"></script>
+
 </body>
+
 </html>

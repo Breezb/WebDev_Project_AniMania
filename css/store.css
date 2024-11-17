@@ -23,7 +23,7 @@ p {
     display:grid;
     border-radius: 16px;
     color : #8b2c2c;
-    text-align: left;
+    text-align: center;
 }
 
 ul {
@@ -122,10 +122,11 @@ body {
     padding: 10px 20px;
     width: 600px;
     text-decoration: none;
-    display:grid;
+    display: block;
     border-radius: 16px;
-    color : #ff9549;
+    color: #ff9549;
     text-align: center;
+    margin: 20px auto 0 auto;
 }
   
 
@@ -142,12 +143,12 @@ body {
 
  }
   .machine {
-    position:relative;
-    width: 300px;
-    height: 400px;
+    position: relative;
+    width: 300px;   /* Fixed width */
+    height: 400px;  /* Fixed height */
     border: 3px solid #333;
     background-color: #dcdcdc;
-    margin-top: 20px;
+    margin: 20px auto;  /* Centers the element horizontally with space above */
     overflow: hidden;
    
   }
@@ -193,13 +194,14 @@ body {
   }
   
   #startButton {
-    margin-top: 20px;
+    margin: 20px auto; 
     padding: 10px 20px;
     background-color: #333;
     color: #fff;
     border: none;
     cursor: pointer;
     font-size: 16px;
+    display: block;
   }
   
   #result {
