@@ -5,6 +5,17 @@ img {
     border: 8px solid #fff;
 }
 
+@media screen and (min-width: 601px) {
+  p{
+    font-size: 80px;
+  }
+
+@media screen and (max-width: 600px) {
+  p{
+    font-size: 30px;
+  }
+}
+
 .logo{
   position: relative;
   width: 100%;
