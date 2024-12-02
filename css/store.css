@@ -23,6 +23,7 @@ img {
 h1, h2 {
   background-color: #ffffff;
   padding: 10px 20px;
+  color: #8b2c2c;
   width: 600px;
   text-decoration: none;
   display: grid;
@@ -54,6 +55,7 @@ h4 {
 p, ul {
   background-color: #ffffff;
   padding: 10px 20px;
+  color: #8b2c2c;
   text-decoration: none;
   display: grid;
   border-radius: 16px;
@@ -230,7 +232,7 @@ ul {
   text-align: center;
   font-weight: bold;
   font-size: 1.5em;
-  color: #333;
+  color: #8b2c2c;
   margin-bottom: 15px;
 }
 
@@ -246,7 +248,7 @@ ul {
 
 .shop-item-price {
   flex-grow: 1;
-  color: #333;
+  color: #8b2c2c;
 }
 
 .shop-item-button {
@@ -265,13 +267,13 @@ ul {
 .cart-header {
   font-weight: bold;
   font-size: 1.25em;
-  color: #333;
+  color: #8b2c2c;
 }
 
 .cart-column {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid black;
+  border-bottom: 1px #8b2c2c;
   margin-right: 1.5em;
   padding-bottom: 10px;
   margin-top: 10px;
@@ -288,7 +290,7 @@ ul {
 .cart-price {
   width: 20%;
   font-size: 1.2em;
-  color: #333;
+  color: #8b2c2c;
 }
 
 .cart-quantity {
@@ -296,7 +298,7 @@ ul {
 }
 
 .cart-item-title {
-  color: #333;
+  color: #8b2c2c;
   margin-left: 0.5em;
   font-size: 1.2em;
 }
@@ -313,7 +315,7 @@ ul {
   border-radius: 5px;
   border: 1px solid #56ccf2;
   background-color: #eee;
-  color: #333;
+  color: #8b2c2c;
   padding: 0;
   text-align: center;
   font-size: 1.2em;
@@ -321,7 +323,7 @@ ul {
 }
 
 .cart-row:last-child {
-  border-bottom: 1px solid black;
+  border-bottom: 1px #8b2c2c;
 }
 
 .cart-row:last-child .cart-column {
@@ -337,12 +339,12 @@ ul {
 .cart-total-title {
   font-weight: bold;
   font-size: 1.5em;
-  color: black;
+  color: #8b2c2c;
   margin-right: 20px;
 }
 
 .cart-total-price {
-  color: #333;
+  color: #8b2c2c;
   font-size: 1.1em;
 }
 
@@ -350,12 +352,12 @@ ul {
   display: block;
   margin: 40px auto 80px auto;
   font-size: 1.75em;
-  color: #333;
+  color: #8b2c2c;
 }
 
 .btn-danger {
   color: white;
-  background-color: red;
+  background-color: #ff9549;
   border: none;
   border-radius: 0.3em;
   font-weight: bold;
