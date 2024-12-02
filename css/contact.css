@@ -129,6 +129,21 @@ body {
 
 * {box-sizing: border-box;}
 
+label[for="email"] {
+  color: #8b2c2c;}
+
+label[for="fname"] {
+  color: #8b2c2c;}
+
+label[for="country"] {
+  color: #8b2c2c;}
+
+label[for="contactmethod"] {
+  color: #8b2c2c;}
+
+label[for="subject"] {
+  color: #8b2c2c;}
+
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
@@ -137,8 +152,10 @@ input[type=text], select, textarea {
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
+  color:#8b2c2c;
   resize: vertical;
 }
+
 
 input[type=email], select, textarea {
   width: 100%;
@@ -148,12 +165,17 @@ input[type=email], select, textarea {
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
+  color:#8b2c2c;
   resize: vertical;
 }
+
+
+
 
 textarea {
   resize: none;
   height:200px;
+  color:#8b2c2c;
   width: 560px;
 }
 
