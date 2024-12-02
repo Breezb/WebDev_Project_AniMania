@@ -47,12 +47,12 @@
       <h1 style="text-align: left;">Contact Form</h1>
 
       <div class="container">
-        <form>
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name..">
-      
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <form name="contactPage" action="" onsubmit="return validateForm()" method="post">
+          <label for="email">Email</label>
+          <input type="email"id="email" name="email" placeholder="Email address..." required>
+
+          <label for="fname">Full Name</label>
+          <input type="text" id="fname" name="fullname" placeholder="Your name..." required oninput="removeSpecialChars()">
       
           <label for="country">Country</label>
           <select id="country" name="country">
@@ -60,9 +60,16 @@
             <option value="United Kingdom">United Kingdom</option>
             <option value="Germany">Germany</option>
           </select>
+
+          <label for="contactmethod">Contact Method</label>
+          <select id="contactmethod" name="ContactMethod">
+            <option value="Email">Email</option>
+            <option value="Phone">Phone</option>
+            <option value="None">None</option>
+          </select>
       
           <label for="subject">Subject</label>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          <textarea id="subject" name="subject" placeholder="Write something.." required></textarea>
       
           <input type="submit" value="Submit">
         </form>
@@ -74,5 +81,7 @@
     <a style="color:#ff8c7d" href="mailto:Animania@email.com">Animania@email.com<br>@Animania<br>www.Animania.com</a></p>
   </footer>
 
+  <script src="scripts\contact.js"></script>
       
 </body>
+
